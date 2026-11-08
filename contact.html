@@ -1,0 +1,453 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact Us - Lesotho Tourism</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+          rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header id="home">
+        <div class="container">
+            <div class="d-flex flex-column flex-md-row
+                        align-items-center justify-content-center gap-4">
+
+                <img src="2.jpg"
+                     alt="Lesotho Tourism Logo"
+                     class="logo">
+
+                <div class="header-text text-center">
+                    <h1>Discover Lesotho</h1>
+<p>
+                        Discover the Mountain Kingdom of Lesotho.
+                        Explore beautiful mountains, waterfalls,
+                        historical places, Basotho culture and
+                        unforgettable tourist attractions.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <!-- NAVIGATION BAR -->
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+
+            <a class="navbar-brand" href="index.html">
+                <span class="brand-icon">
+                    <i class="bi bi-mountain"></i>
+                </span>
+                <span>LESOTHO TOURISM</span>
+            </a>
+
+            <button class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#mainNavbar"
+                    aria-controls="mainNavbar"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="mainNavbar">
+                <ul class="navbar-nav ms-auto align-items-lg-center">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">
+                            <i class="bi bi-house-door"></i> Home
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">
+                            <i class="bi bi-book"></i> About
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="service.html">
+                            <i class="bi bi-compass"></i> Services
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery.html">
+                            <i class="bi bi-images"></i> Gallery
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link contact-link active"
+                           aria-current="page"
+                           href="contact.html">
+                            <i class="bi bi-envelope"></i> Contact
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- MAIN CONTENT -->
+    <main class="container-main">
+
+        <!-- INTRODUCTION -->
+        <section class="intro">
+            <h2>Get in Touch With Us</h2>
+
+            <p>
+                Are you planning to explore Lesotho? Do you need
+                information about tourist attractions, accommodation,
+                cultural activities or travel arrangements?
+                Contact us using the information below or send
+                us a message through our form.
+            </p>
+        </section>
+
+        <div class="row g-4">
+
+            <!-- CONTACT INFORMATION -->
+            <div class="col-lg-5">
+                <section class="contact-card contact-info">
+
+                    <h2>Contact Information</h2>
+
+                    <p>
+                        <i class="bi bi-geo-alt-fill"></i>
+                        <strong>Country:</strong><br>
+                        Lesotho, Southern Africa
+                    </p>
+
+                    <p>
+                        <i class="bi bi-telephone-fill"></i>
+                        <strong>Telephone:</strong><br>
+                        Please use an officially verified tourism
+                        contact number when one is available.
+                    </p>
+
+                    <p>
+                        <i class="bi bi-envelope-fill"></i>
+                        <strong>Email:</strong><br>
+                        Please use a verified tourism email address
+                        when one is available.
+                    </p>
+
+                    <p>
+                        <i class="bi bi-clock-fill"></i>
+                        <strong>Office Hours:</strong><br>
+                        Contact the relevant tourism provider
+                        to confirm its operating hours.
+                    </p>
+
+                    <hr>
+
+                    <h3>What Can You Ask Us?</h3>
+
+                    <p>
+                        You can enquire about:
+                    </p>
+
+                    <ul>
+                        <li>Tourist attractions and destinations.</li>
+                        <li>Accommodation and places to stay.</li>
+                        <li>Mountain hiking and pony trekking.</li>
+                        <li>Historical and cultural sites.</li>
+                        <li>Waterfalls, dams and national parks.</li>
+                        <li>Travel information and activities.</li>
+                    </ul>
+
+                </section>
+            </div>
+
+            <!-- CONTACT FORM -->
+            <div class="col-lg-7">
+                <section class="contact-card">
+
+                    <h2>Send Us a Message</h2>
+
+                    <p>
+                        Complete the form below to make a tourism enquiry.
+                    </p>
+
+                    <form id="contactForm">
+
+                        <div class="mb-3">
+                            <label for="name" class="form-label">
+                                Full Name:
+                            </label>
+
+                            <input type="text"
+                                   class="form-control"
+                                   id="name"
+                                   name="name"
+                                   placeholder="Enter your full name"
+                                   minlength="2"
+                                   maxlength="100"
+                                   required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="email" class="form-label">
+                                Email Address:
+                            </label>
+
+                            <input type="email"
+                                   class="form-control"
+                                   id="email"
+                                   name="email"
+                                   placeholder="Enter your email address"
+                                   required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="phone" class="form-label">
+                                Phone Number:
+                            </label>
+
+                            <input type="tel"
+                                   class="form-control"
+                                   id="phone"
+                                   name="phone"
+                                   placeholder="Enter your phone number">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="subject" class="form-label">
+                                Enquiry Subject:
+                            </label>
+
+                            <select class="form-select"
+                                    id="subject"
+                                    name="subject"
+                                    required>
+
+                                <option value="">Select an enquiry</option>
+
+                                <option value="Tourist Attractions">
+                                    Tourist Attractions
+                                </option>
+
+                                <option value="Accommodation">
+                                    Accommodation
+                                </option>
+
+                                <option value="Outdoor Activities">
+                                    Outdoor Activities
+                                </option>
+
+                                <option value="Cultural Tourism">
+                                    Cultural Tourism
+                                </option>
+
+                                <option value="Historical Sites">
+                                    Historical Sites
+                                </option>
+
+                                <option value="Travel Information">
+                                    Travel Information
+                                </option>
+
+                                <option value="Other Enquiries">
+                                    Other Enquiries
+                                </option>
+
+                            </select>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="message" class="form-label">
+                                Your Message:
+                            </label>
+
+                            <textarea class="form-control"
+                                      id="message"
+                                      name="message"
+                                      rows="5"
+                                      maxlength="1000"
+                                      placeholder="Tell us what you would like to know about Lesotho tourism..."
+                                      required></textarea>
+
+                            <div id="charCount" aria-live="polite">
+                                0 / 1000 characters
+                            </div>
+                        </div>
+
+                        <div class="d-flex flex-wrap gap-2">
+
+                            <button type="submit"
+                                    class="btn btn-green px-4">
+                                <i class="bi bi-send"></i>
+                                Send Message
+                            </button>
+
+                            <button type="reset"
+                                    class="btn btn-gold px-4">
+                                <i class="bi bi-eraser"></i>
+                                Clear Form
+                            </button>
+
+                        </div>
+
+                        <div id="formFeedback"
+                             class="alert mt-3 d-none"
+                             role="status"
+                             aria-live="polite"></div>
+
+                    </form>
+                </section>
+            </div>
+
+        </div>
+
+        <!-- MORE INFORMATION -->
+        <section class="contact-card mt-4">
+            <h2>Explore More of Lesotho</h2>
+
+            <p>
+                Lesotho has many places to discover, including the
+                Maloti Mountains, Maletsunyane Falls, Katse Dam,
+                Sehlabathebe National Park and the historic site
+                of Thaba Bosiu.
+            </p>
+
+            <p>
+                Visit our other pages to learn more about the
+                country's attractions, tourism services and scenery.
+            </p>
+
+            <a href="about.html" class="btn btn-green me-2 mb-2">
+                <i class="bi bi-book"></i>
+                About Lesotho
+            </a>
+
+            <a href="service.html" class="btn btn-warning mb-2">
+                <i class="bi bi-compass"></i>
+                Tourism Services
+            </a>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>
+            &copy; <span id="year"></span> Lesotho Tourism.
+            All Rights Reserved.
+        </p>
+
+        <p>
+            Discover the History, Culture and Natural Beauty
+            of the Mountain Kingdom.
+        </p>
+    </footer>
+
+    <!-- BOOTSTRAP JAVASCRIPT -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- WEBSITE JAVASCRIPT -->
+    <script>
+        // Get the form elements
+        const contactForm = document.getElementById("contactForm");
+        const messageInput = document.getElementById("message");
+        const charCount = document.getElementById("charCount");
+        const feedback = document.getElementById("formFeedback");
+
+        // Display the current year in the footer
+        document.getElementById("year").textContent =
+            new Date().getFullYear();
+
+        // Count the characters entered in the message box
+        messageInput.addEventListener("input", function () {
+            charCount.textContent =
+                messageInput.value.length + " / 1000 characters";
+        });
+
+        // Check the form when the visitor submits it
+        contactForm.addEventListener("submit", function (event) {
+
+            // Stop the page from refreshing
+            event.preventDefault();
+
+            // Get the visitor's name and message
+            const name = document.getElementById("name").value.trim();
+            const message = messageInput.value.trim();
+
+            // Check that the name is long enough
+            if (name.length < 2) {
+                showFeedback(
+                    "Please enter your full name.",
+                    "danger"
+                );
+
+                document.getElementById("name").focus();
+                return;
+            }
+
+            // Check that the message is not empty
+            if (message.length === 0) {
+                showFeedback(
+                    "Please enter your message.",
+                    "danger"
+                );
+
+                messageInput.focus();
+                return;
+            }
+
+            // Show a demonstration message
+            showFeedback(
+                "Thank you, " + name +
+                "! Your form has been checked successfully. " +
+                "This is a demonstration. Your message has not been sent.",
+                "success"
+            );
+
+            // Display form details in the browser console
+            console.log("Contact form details:", {
+                name: name,
+                email: document.getElementById("email").value,
+                phone: document.getElementById("phone").value,
+                subject: document.getElementById("subject").value,
+                message: message
+            });
+        });
+
+        // Display feedback to the visitor
+        function showFeedback(message, type) {
+            feedback.textContent = message;
+            feedback.className = "alert alert-" + type + " mt-3";
+        }
+
+        // Reset the character counter and feedback when clearing the form
+        contactForm.addEventListener("reset", function () {
+            setTimeout(function () {
+                charCount.textContent = "0 / 1000 characters";
+                feedback.textContent = "";
+                feedback.className = "alert mt-3 d-none";
+            }, 0);
+        });
+    </script>
+
+</body>
+</html>
